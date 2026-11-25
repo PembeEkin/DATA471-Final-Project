@@ -46,7 +46,7 @@ def main():
     parser.add_argument('--model', help='path to the trained model file (model7.joblib)', type=Path, default=Path('model7.joblib'))
     parser.add_argument('--preds', help='path to the output predictions file (preds.txt)', type=Path, default=Path('task07.CT'))
     parser.add_argument('--seed', help='random seed for reproducibility', type=int, default=471)
-    parser.add_argument('--max_iter', help='maximum number of iterations for the model', type=int, default=500)
+    parser.add_argument('--max_iter', help='maximum number of iterations for the model', type=int, default=800)
     parser.add_argument('--learning_rate', help='learning rate for the model', type=float, default=0.1)
     parser.add_argument('--max_leaf_nodes', help='maximum number of leaf nodes for the model', type=int, default=127)
     parser.add_argument('--class_weight', help='class weight for the model', type=str, default=None)
